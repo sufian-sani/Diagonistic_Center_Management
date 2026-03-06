@@ -1,3 +1,41 @@
+# Docker Installation (Linux / WSL)
+
+Follow the instructions below to install **Docker and Docker Compose v2**.  
+These steps work on **Linux and WSL**.
+
+## 1. Update the system
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
+
+## 2. Install Docker
+
+```bash
+sudo apt install docker.io -y
+```
+
+## 3. Allow Docker to run without sudo
+
+```bash
+sudo usermod -aG docker $USER
+newgrp docker
+```
+
+## 4. Install Docker Compose v2
+
+```bash
+sudo apt install docker-compose-v2 -y
+```
+
+## 5. Verify installation
+
+```bash
+docker --version
+docker compose version
+```
+
 
 # 🏥 Diagnostic Management System  
 
