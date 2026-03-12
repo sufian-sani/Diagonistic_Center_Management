@@ -36,6 +36,9 @@ docker --version
 docker compose version
 ```
 
+## 6. project run
+```docker compose up```
+
 
 # 🏥 Diagnostic Management System  
 
