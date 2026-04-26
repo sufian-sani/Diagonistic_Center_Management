@@ -16,8 +16,8 @@ pids/
 *.pid.lock
 
 # Environment variables
-.env
-**/.env
+# .env
+# **/.env
 
 # Frontend build files
 /build
