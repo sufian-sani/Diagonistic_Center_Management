@@ -36,6 +36,9 @@ docker --version
 docker compose version
 ```
 
+## 6. project run
+```docker compose up```
+
 
 # 🏥 Diagnostic Management System  
 
@@ -201,7 +204,7 @@ npm start
 
 Access User Interface:
 
-http://localhost:3000
+http://localhost:5173
 
 ---
 
